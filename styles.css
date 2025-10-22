@@ -1,68 +1,24 @@
-
-
-
-body{
-  margin:0;
-  background:#f8f8f8;             
-  color:#111;
-}
-h1{
-  text-align:center;
-  margin:16px 0 8px;
-  font-size:22px;
-}
-
-
+body{ background:#f8f8f8; margin:0; font-family:system-ui, Arial, sans-serif; }
+h1{ text-align:center; margin:16px 0 8px; }
 .book-library{
   max-width:900px;
-  margin:0 auto 48px;
-  background:#ffffff;              
+  margin:0 auto 40px;
+  background:#fff;
   padding:16px 12px 24px;
   border-radius:8px;
   box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
-
-
-.book{
-  padding:18px 12px 24px;
-  border-bottom:1px solid #ececec;
-}
-
-.book img{
-  display:block;
-  width:220px;
-  max-width:80%;
-  height:auto;
-  margin:0 auto 12px;              
-  object-fit:cover;
-}
-
-
-.book h2{
-  margin:0 0 6px;
-  font-size:16px;
-  letter-spacing:0.3px;
-}
-
-.book .author{
-  margin:0 0 10px;
-  color:#777777;                   
-  font-size:12px;
-}
-
-
-.book .price{
-  margin:0;
-  background:#2ecc71;              
-  color:#fff;
+.book{ padding:18px 12px 24px; border-bottom:1px solid #ececec; }
+.book:last-child{ border-bottom:none; }
+.book img{ display:block; width:220px; height:auto; margin:0 auto 12px; }
+.book h2{ margin:0 0 6px; font-size:16px; }
+.author{ color:rgb(119,119,119); font-size:12px; margin:0 0 10px; }
+.price{
+  width:100%;
+  background:rgb(46,204,113);
+  color:rgb(255,255,255);
   text-align:center;
-  border-radius:4px;
   padding:8px 10px;
+  border-radius:4px;
   font-weight:600;
-  letter-spacing:.2px;
-}
-
-
-.book:last-child{
-  border-bottom:none;
 }
