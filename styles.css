@@ -1,6 +1,11 @@
 
 
 
+body{
+  margin:0;
+  background:#f8f8f8;             
+  color:#111;
+}
 h1{
   text-align:center;
   margin:16px 0 8px;
